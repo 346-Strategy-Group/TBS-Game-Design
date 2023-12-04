@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Classes\AppDelegate.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Classes\HelloWorldScene.cpp">
+      <Filter>Source Files\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\main.cpp">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\precheader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Classes\AppDelegate.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Classes\HelloWorldScene.h">
+      <Filter>Source Files\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\main.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\resource.h">
+      <Filter>Source Files\proj.win32</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Resources\CloseNormal.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Resources\CloseSelected.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Resources\HelloWorld.png">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Resources\fonts\Marker Felt.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Resources\fonts\arial.ttf">
+      <Filter>Resources\fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\Resources\res\.gitkeep">
+      <Filter>Resources\res</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\game.rc">
+      <Filter>Source Files\proj.win32</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{443A8767-1715-36FD-AA29-9A2CC33221E3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\fonts">
+      <UniqueIdentifier>{0769E38F-2345-32DF-A1F0-513E4FE2DAFE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\res">
+      <UniqueIdentifier>{2E5DEA1C-4B22-310D-B628-0E61E28E09B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FC6ADAC6-8FD6-306D-B08E-E35B91CACEBA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Classes">
+      <UniqueIdentifier>{8C8A0BD8-E121-347C-AD36-EAD728BDDD66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\proj.win32">
+      <UniqueIdentifier>{137140C6-2EC9-3CBC-B05B-A03467319260}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

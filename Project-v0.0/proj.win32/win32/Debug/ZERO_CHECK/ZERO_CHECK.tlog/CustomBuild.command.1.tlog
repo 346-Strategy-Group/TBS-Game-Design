@@ -1,0 +1,10 @@
+^C:\GITHUB_PROGRAM_DESIGN\TBS-GAME-DESIGN\PROJECT-V0.0\PROJ.WIN32\CMAKEFILES\8E771865E9A8C91675B3ABE9708E9ADA\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github_program_design/TBS-Game-Design/Project-v0.0 -BC:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32/Project-v0.0.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1A7C3DCC-F980-32D9-A99B-98DCDF2B2528}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule C:/github_program_design/TBS-Game-Design/Project-v0.0/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github_program_design/TBS-Game-Design/Project-v0.0 -BC:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32 --check-stamp-file C:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\2d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\audio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\base\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\math\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\navmesh\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\network\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\platform\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\renderer\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\ui\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule C:/github_program_design/TBS-Game-Design/Project-v0.0/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github_program_design/TBS-Game-Design/Project-v0.0 -BC:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32 --check-stamp-file C:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\2d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\audio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\base\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\math\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\navmesh\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\network\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\platform\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\renderer\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\ui\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule C:/github_program_design/TBS-Game-Design/Project-v0.0/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github_program_design/TBS-Game-Design/Project-v0.0 -BC:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32 --check-stamp-file C:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\2d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\audio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\base\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\math\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\navmesh\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\network\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\platform\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\renderer\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\ui\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule C:/github_program_design/TBS-Game-Design/Project-v0.0/cocos2d/cocos/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/github_program_design/TBS-Game-Design/Project-v0.0 -BC:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32 --check-stamp-file C:/github_program_design/TBS-Game-Design/Project-v0.0/proj.win32/engine/cocos/core/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\2d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\audio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\base\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\editor-support\cocostudio\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\math\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\navmesh\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\network\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\physics3d\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\platform\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\renderer\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\cocos\ui\CMakeLists.txt;C:\github_program_design\TBS-Game-Design\Project-v0.0\cocos2d\extensions\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\cocos\core\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\ZERO_CHECK.vcxproj">
+      <Project>{1F5763C3-F729-325A-AF83-EDF103E87C34}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\cocos\core\cocos2d.vcxproj">
+      <Project>{2BFF24C9-D941-32E5-B8D4-49FAB95523B5}</Project>
+      <Name>cocos2d</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\clipper\ext_clipper.vcxproj">
+      <Project>{9D2CE770-16F9-3D96-88A7-9AE14E93D4B0}</Project>
+      <Name>ext_clipper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\ConvertUTF\ext_convertUTF.vcxproj">
+      <Project>{CC7C5ACE-3E4A-3150-BFDA-1F13F7862681}</Project>
+      <Name>ext_convertUTF</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\edtaa3func\ext_edtaa3func.vcxproj">
+      <Project>{136D8137-F9C5-3F18-9B8E-0C6767228C18}</Project>
+      <Name>ext_edtaa3func</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\md5\ext_md5.vcxproj">
+      <Project>{DF08C08C-5579-38C6-8A12-79327B189779}</Project>
+      <Name>ext_md5</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\poly2tri\ext_poly2tri.vcxproj">
+      <Project>{05F85C82-C5DC-3AEF-A968-E7C4421D3AAC}</Project>
+      <Name>ext_poly2tri</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\recast\ext_recast.vcxproj">
+      <Project>{C410CB0B-6575-3D6D-AC1F-6F7F603B477A}</Project>
+      <Name>ext_recast</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\tinyxml2\ext_tinyxml2.vcxproj">
+      <Project>{82CDC850-BA82-3C6B-9B46-C7152708C9CD}</Project>
+      <Name>ext_tinyxml2</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\unzip\ext_unzip.vcxproj">
+      <Project>{6AC5F34B-1C47-3CF0-BCA7-F05FE82472D3}</Project>
+      <Name>ext_unzip</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\xxhash\ext_xxhash.vcxproj">
+      <Project>{603BA041-C1AE-3585-B19A-E11B1B33DE71}</Project>
+      <Name>ext_xxhash</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\xxtea\ext_xxtea.vcxproj">
+      <Project>{C18C5DB3-AC44-3729-ABC1-B3D15583CBED}</Project>
+      <Name>ext_xxtea</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\github_program_design\TBS-Game-Design\Project-v0.0\proj.win32\engine\external\external.vcxproj">
+      <Project>{38325347-9740-3279-979A-42A38B6BEF8F}</Project>
+      <Name>external</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
