@@ -1,17 +1,7 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "4.27",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "Game_Test2",
-			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine",
-				"CoreUObject"
-			]
-		}
-	]
+  "Category": "",
+  "Description": "",
+  "EngineAssociation": "4.27",
+  "FileVersion": 3,
+  "Modules": ""
 }
